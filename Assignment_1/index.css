@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+
+/* Header Section Start */
+.header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    border: 1px solid transparent;
+}
+.logo_png{
+    width: 120px;
+}
+.navigation_a{
+    font-size: 2rem;
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* Header Section End */
+
+
+
+/* Banner Section Start */
+.banner_div{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url(images/banner.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.banner_inner{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.line{
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+.line_p{
+    font-size: 1.8rem;
+    color: white
+}
+
+.reademore{
+
+    overflow: hidden;
+    width: 120px;
+    /* border: 3px solid black; */
+    background-color: whitesmoke;
+}
+.readmore_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 25px;
+    font-size: 1.6rem;
+    /* margin-right: 30px; */
+    color: rgb(97, 79, 97);
+    text-decoration: none;
+    text-transform: capitalize;
+    /* border: 1px solid black; */
+    /* background-color: white; */
+}
+/* Banner Section End */
+
+
+
+
+/* Paragraph Start */
+.paragraph_div{
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+}
+.paragraph_p{
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+/* Paragraph End */
+
+
+
+/*  Three Service Department Start */
+.our_services_heading_p{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-top: 60px;
+    text-align: center;
+}
+.service_department_div{
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.service_content{
+    width: 300px;
+}
+.service_images{
+    width: 100%;
+}
+/*  Three Service Department End */
+
+
+
+
+/* Client Logo Goes Here Department Start */
+.client_logo_div{
+    margin-top: 30px;
+    /*border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.client_logo_content{
+    width: 120px;
+}
+.client_image{
+    width: 100%;
+    /* height: 100px; */
+}
+/* lient Logo Goes Here Department End */
+
+
+
+/* Footer Start */
+.footer_main_div{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, .85);
+    padding: 30px 30px 20px 30px;
+    /*width: 100%;    */
+}
+
+
+.footer_inner_div_1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*border: 1px solid black;*/
+}
+.footer_address_div{
+    width: 450px;
+    /*border: 1px solid white;*/
+}
+.footer_address_p{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.footer_address_span{
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+
+.footer_links{
+    border: 1px solid transparent;
+}
+.footer_links_p{
+    font-size: 2rem;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+
+
+.social_media_icon_div{
+    margin-top: 15px;
+    overflow: hidden;
+}
+.social_media_icons{
+    font-size: 1.8rem;
+    color: white;
+    margin-right: 30px;
+}
+
+
+
+
+.footer_inner_div_2{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright_div_p{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+/* Footer End */
