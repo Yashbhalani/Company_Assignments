@@ -1,0 +1,27 @@
+﻿@model SourceControlFinalAssignment.Models.IndexViewModel
+@{
+    ViewBag.Title = "Profile";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h3>You can change password here</h3>
+    <hr />
+    <dl class="dl-horizontal">
+        
+        <dd>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink(" Click here to Change password", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("Create", "SetPassword")
+            }
+            ]
+        </dd>
+    </dl>
+</div>
