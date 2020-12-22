@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "HomePage";
+}
+
+<div class="jumbotron">
+    <h1>DASHBOARD</h1>
+    <p class="lead">
+        @Html.ActionLink("Welcome " + User.Identity.GetUserName(), "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+    </p>
+</div>
+<div class="container">
+    <div class="row col-md-12">
+        <ul class="list-group">
+            @Html.ActionLink("Index", "Index", "Products", null, htmlAttributes: new { @class = "list-group-item" })
+            @Html.ActionLink("Edit", "Edit", "Products", null, htmlAttributes: new { @class = "list-group-item" })
+            @Html.ActionLink("Create", "Create", "Products", null, htmlAttributes: new { @class = "list-group-item" })
+
+        </ul>
+    </div>
+</div>

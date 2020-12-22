@@ -1,0 +1,9 @@
+2020-12-17 15:01:55,823 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 15:02:49,073 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 15:37:12,272 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 15:54:17,732 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 21:39:10,302 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 21:51:26,311 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 21:51:26,319 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 21:51:26,692 [38] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 21:51:32,440 [45] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
