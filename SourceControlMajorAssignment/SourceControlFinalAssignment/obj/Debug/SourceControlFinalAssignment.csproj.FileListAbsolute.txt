@@ -108,6 +108,7 @@ D:\Assignments-Gateway-main\Assignments-Gateway-main\SourceControlFinalAssignmen
 D:\Assignments-Gateway-main\Assignments-Gateway-main\SourceControlFinalAssignment\SourceControlFinalAssignment\obj\Debug\SourceControlFinalAssignment.csproj.CopyComplete
 D:\Assignments-Gateway-main\Assignments-Gateway-main\SourceControlFinalAssignment\SourceControlFinalAssignment\obj\Debug\SourceControlFinalAssignment.dll
 D:\Assignments-Gateway-main\Assignments-Gateway-main\SourceControlFinalAssignment\SourceControlFinalAssignment\obj\Debug\SourceControlFinalAssignment.pdb
+<<<<<<< HEAD
 E:\Company Assignments\SourceControlMajorAssignment\SourceControlFinalAssignment\bin\SourceControlFinalAssignment.dll.config
 E:\Company Assignments\SourceControlMajorAssignment\SourceControlFinalAssignment\bin\SourceControlFinalAssignment.dll
 E:\Company Assignments\SourceControlMajorAssignment\SourceControlFinalAssignment\bin\SourceControlFinalAssignment.pdb
@@ -218,3 +219,5 @@ E:\Company Assignments\SourceControlMajorAssignment\SourceControlFinalAssignment
 E:\Company Assignments\SourceControlMajorAssignment\SourceControlFinalAssignment\obj\Debug\SourceControlFinalAssignment.csproj.CopyComplete
 E:\Company Assignments\SourceControlMajorAssignment\SourceControlFinalAssignment\obj\Debug\SourceControlFinalAssignment.dll
 E:\Company Assignments\SourceControlMajorAssignment\SourceControlFinalAssignment\obj\Debug\SourceControlFinalAssignment.pdb
+=======
+>>>>>>> 41d86d125429f6a042ae75b168094190aeeb1abe
