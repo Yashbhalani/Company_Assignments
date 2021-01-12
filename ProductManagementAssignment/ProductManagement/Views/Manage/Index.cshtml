@@ -1,0 +1,26 @@
+﻿@model ProductManagement.Models.IndexViewModel
+@{
+    ViewBag.Title = "Manage";
+}
+
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h4>Settings</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Change Password:</dt>
+        <dd>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("Click here", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("Create", "SetPassword")
+            }
+            ]
+        </dd>
+    </dl>
+</div>
