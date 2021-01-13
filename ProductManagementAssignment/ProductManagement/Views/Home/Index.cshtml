@@ -11,7 +11,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Product Management Website</title>
+    <title>@ViewBag.Title -  Website</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -31,7 +31,7 @@
         <div class="row">
             <nav class="col-md-2 d-md-block bg-light sidebar">
                 <div class="sidebar-sticky">
-                    <ul class="nav flex-column">
+                    <ul class="nav flex-lg-row">
                         <li class="nav-item">
                             @Html.ActionLink("List of All Products", "Index", "Products", null, htmlAttributes: new { @class = "nav-link" })
                         </li>
@@ -45,7 +45,7 @@
 
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-                    <h1 class="h2">Homepage</h1>
+                    
                     <p class="lead">
                         @Html.ActionLink("Welcome " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
                     </p>
